@@ -57,7 +57,7 @@ int partition(int *array, int left, int right, size_t size)
 		array[right] = temp;
 		print_array(array, size);
 	}
-	return i;
+	return (i);
 }
 
 /**
