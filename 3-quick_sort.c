@@ -48,8 +48,7 @@ int partition(int *array, int left, int right, size_t size)
 	}
 
 	if (i == j && array[i] < pivot)
-		i++;
-	
+		i++;	
 	if (array[i] != pivot)
 	{
 		temp = array[i];
