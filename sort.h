@@ -28,4 +28,12 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 int partition(int *array, int left, int right, size_t size);
 void qs(int *array, int left, int right, size_t size);
+void _swap(int *array, int i, int j);
+void shell_sort(int *array, size_t size);
+void copy(int *src, int *dst, int size);
+void merge(int *array, int *buff, int minL, int maxL, int minR, int maxR);
+void printcheck(int *array, int r1, int r2);
+void split(int *array, int *buff, int min, int max, int size);
+void merge_sort(int *array, size_t size);
+
 #endif /* ALGORITHMS_H */
